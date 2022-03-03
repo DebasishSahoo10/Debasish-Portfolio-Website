@@ -13,6 +13,10 @@ body {
     padding: 2rem 0rem;
 }
 
+.container {
+    padding: 0rem 2rem;
+}
+
 .nav {
     background-color: var(--primary-color) ;
     padding: 1rem;
@@ -31,7 +35,7 @@ body {
 
 .nav-list-item {
     display: inline;
-    padding-inline-start: 0px;
+    padding: 0rem 0.5rem;
 }
 
 .nav-strong {
