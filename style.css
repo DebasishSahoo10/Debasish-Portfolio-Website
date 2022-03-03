@@ -6,9 +6,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px auto;
-    max-width: 85%;
-    width: 100%;
+    margin: 0px
+}
+
+.hr {
+    padding: 2rem 0rem;
 }
 
 .nav {
