@@ -6,10 +6,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
     max-width: 85%;
     width: 100%;
-    display: block;
 }
 
 .nav {
@@ -30,12 +29,11 @@ body {
 
 .nav-list-item {
     display: inline;
-    padding-inline: 0.5rem;
+    padding-inline-start: 0px;
 }
 
 .nav-strong {
     color: white;
-    padding-left: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
 }
