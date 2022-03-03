@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px auto;
+    margin: 0px;
     max-width: 85%;
     width: 100%;
     display: block;
@@ -14,9 +14,9 @@ body {
 
 .nav {
     background-color: var(--primary-color) ;
+    padding: 1rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-    padding: 1rem;
 }
 
 .link {
@@ -30,7 +30,7 @@ body {
 
 .nav-list-item {
     display: inline;
-    padding-inline: 1rem;
+    padding-inline: 0.5rem;
 }
 
 .nav-strong {
