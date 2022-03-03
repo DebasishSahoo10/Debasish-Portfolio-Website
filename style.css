@@ -6,11 +6,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 2rem
+    margin: 0px
 }
 
 .hr {
     padding: 2rem 0rem;
+}
+
+.margin-md {
+    margin: 2rem;
 }
 
 .container {
