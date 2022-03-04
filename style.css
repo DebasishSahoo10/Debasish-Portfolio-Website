@@ -84,7 +84,7 @@ body {
     text-decoration: none;
     color: var(--primary-color);
     padding: 0.5rem 1rem;
-    border: ridge;
+    border: solid;
     border-width: 2px;
 }
 
