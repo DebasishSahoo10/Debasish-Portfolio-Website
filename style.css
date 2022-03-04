@@ -83,7 +83,7 @@ body {
     border-radius: 3rem;
     text-decoration: none;
     color: var(--primary-color);
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
     border: solid;
     border-width: 1.5px;
 }
