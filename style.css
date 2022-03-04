@@ -7,10 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px auto;
-    max-width: 85%;
-    width: 100%;
-    display: block;
+    margin: 0px 5px;
 }
 
 .nav {
@@ -19,6 +16,8 @@ body {
     border-bottom-right-radius: 1rem;
     padding: 1rem;
     padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .footer {
@@ -89,17 +88,23 @@ body {
     border-width: 0.01rem;
 }
 
+.hr {
+    padding: 2rem;
+}
+
 .hero {
     text-align: center;
-    margin: auto;
 }
 .image {
     max-width: 600px;
     padding-top: 0rem;
+    display: block;
+    margin: auto;
 }
 
 .section-white {
     text-align: center;
+    padding: 1rem;
 }
 
 .section-grey {
