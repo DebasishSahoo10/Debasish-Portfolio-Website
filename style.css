@@ -119,6 +119,7 @@ body {
 .hero-text {
     margin-top: 0rem;
     padding-top: 0rem;
+    display: inline;
 }
 
 .text {
