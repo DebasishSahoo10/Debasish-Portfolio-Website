@@ -134,3 +134,7 @@ body {
 .active {
     font-weight: bold;
 }
+
+.super {
+    max-width: 50px;
+}
