@@ -67,7 +67,7 @@ body {
 .footer-list-item {
     color: white;
     display: inline;
-    padding-inline: 2rem;
+    padding-inline: 1rem;
 }
 
 .primary-button {
@@ -85,7 +85,7 @@ body {
     color: var(--primary-color);
     padding: 0.5rem 1rem;
     border: ridge;
-    border-width: 0.01rem;
+    border-width: 2px;
 }
 
 .hr {
