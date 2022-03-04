@@ -2,31 +2,33 @@
 
 :root {
     --primary-color: #6A61FA;
+    --secondary-color: #f3f4f6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px
-}
-
-.hr {
-    padding: 2rem 0rem;
-}
-
-.margin-md {
-    margin: 2rem;
-}
-
-.container {
-    padding: 0rem 2rem;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    display: block;
 }
 
 .nav {
     background-color: var(--primary-color) ;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     padding: 1rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    padding-bottom: 0.5rem;
 }
+
+.footer {
+    background-color: var(--primary-color) ;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+
 
 .link {
     text-decoration: none;
@@ -35,15 +37,97 @@ body {
 
 .nav-list {
     text-align: right;
+    margin-right: 1rem;
+    padding-inline-start: 0px
 }
 
 .nav-list-item {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding-inline: 1rem;
 }
 
 .nav-strong {
     color: white;
+    padding-left: 0.5rem;
     font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-list {
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.footer-list-item {
+    color: white;
+    display: inline;
+    padding-inline: 2rem;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 3rem;
+}
+
+.secondary-button {
+    border-color: var(--primary-color);
+    border-radius: 3rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border: ridge;
+    border-width: 0.01rem;
+}
+
+.hr {
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    margin: auto;
+}
+.image {
+    max-width: 600px;
+    padding-top: 0rem;
+}
+
+.section-white {
+    text-align: center;
+}
+
+.section-grey {
+    background-color: var(--secondary-color);
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.hero-text {
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
+
+.text {
+    margin-bottom: 2rem;
+}
+
+.blogs {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.active {
     font-weight: bold;
 }
