@@ -85,6 +85,7 @@ body {
 
 .hero {
     text-align: center;
+    margin: auto;
 }
 .image {
     max-width: 600px;
@@ -136,9 +137,5 @@ body {
 }
 
 .block {
-    max-width: 40px;
-    display: inline-block;
-    position: absolute;
-    margin-top: 0.35rem;
-    padding-left: 0.5rem;
+    max-width: 35px;
 }
