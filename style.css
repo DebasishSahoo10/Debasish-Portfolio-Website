@@ -134,3 +134,11 @@ body {
 .super {
     max-width: 50px;
 }
+
+.block {
+    max-width: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 0.35rem;
+    padding-left: 0.5rem;
+}
