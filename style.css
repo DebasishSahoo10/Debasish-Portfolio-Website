@@ -81,6 +81,7 @@ body {
     padding: 0.5rem 1rem;
     border: solid;
     border-width: 1.5px;
+    margin: 0rem 1rem;
 }
 
 .hero {
@@ -97,7 +98,7 @@ body {
 .section-white {
     text-align: center;
     padding: 1rem;
-    margin: 0rem 0.1rem;
+    margin: 0rem 0.1rem;  
 }
 
 .section-grey {
@@ -106,6 +107,7 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     margin: 0rem 0.1rem;
+    padding-bottom: 2rem;
 }
 
 .hero-text {
@@ -136,6 +138,6 @@ body {
     max-width: 50px;
 }
 
-.block {
+.semicolon {
     max-width: 35px;
 }
