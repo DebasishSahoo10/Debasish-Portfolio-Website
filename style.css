@@ -62,13 +62,9 @@ body {
 .footer-list {
     text-align: center;
     padding-inline-start: 0px;
-}
-
-.footer-list-item {
-    color: white;
-    display: inline;
     padding-inline: 1rem;
 }
+
 
 .primary-button {
     background-color: var(--primary-color);
