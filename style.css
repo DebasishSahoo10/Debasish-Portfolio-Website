@@ -112,9 +112,9 @@ body {
 }
 
 .hero-text {
-    margin-top: 0rem;
-    padding-top: 0rem;
-    display: inline;
+    margin: 2rem 0rem;
+    text-align: center;
+    padding-left: 2rem;
 }
 
 .text {
