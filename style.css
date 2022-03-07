@@ -118,7 +118,9 @@ body {
 }
 
 .text {
+    margin: auto;
     margin-bottom: 2rem;
+    max-width: 900px;
 }
 
 .first {
