@@ -3,6 +3,7 @@
 :root {
     --primary-color: #6A61FA;
     --secondary-color: #f3f4f6;
+    --third-color: blue; 
 }
 
 body {
@@ -161,4 +162,5 @@ body {
 
 .none {
     text-decoration: none;
+    color: var(--third-color);
 }
