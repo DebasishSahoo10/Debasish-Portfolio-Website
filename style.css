@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #0C46F2;
+    --primary-color: #6A61FA;
     --secondary-color: #f3f4f6;
-    --third-color: blue; 
+    --third-color: #6A61FA; 
 }
 
 body {
@@ -75,12 +75,12 @@ body {
     color: white;
     text-decoration: none;
     padding: 0.6rem 1rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 
 .secondary-button {
     border-color: var(--primary-color);
-    border-radius: 3rem;
+    border-radius: 1rem;
     text-decoration: none;
     color: var(--primary-color);
     padding: 0.5rem 1rem;
