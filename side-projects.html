@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debasish's Portfolio Website</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+    <nav class="nav">
+        <strong class="nav-strong">web-dev</strong>
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a class="link" href="/">home</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="active link" href="projects.html">projects</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="link" href="blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 style="color: grey;"> other <span style="color: var(--primary-color)">projects</span></h1>
+    </header>
+
+    <section class="section-grey">
+        <h3>are you bored</h3>
+        <p class="text">A web-app which will generate a task whenever you are bored. You just need to click on the Thunder Icon present on the website and a task will appear for you.</p>
+        <a class="primary-button" href="https://boredyou.netlify.app/">Check Project</a>
+        <a class="secondary-button" href="https://github.com/DebasishSahoo10/are-you-bored">View Source</a>
+    </section>
+
+    <section class="section-white">
+        <h3>presets store</h3>
+        <p class="text">A store where you can download mobile lightroom presets developed by me. Tools used for this - VScode, Adobe Illustrator, Canva, Netlify, unDraw</p>
+        <a class="primary-button" href="https://lightroomdev.netlify.app/">Check Project</a>
+        <a class="secondary-button" href="https://github.com/DebasishSahoo10/presets-store">View Source</a>
+    </section>
+
+    <section class="blogs section-grey">
+        <h3>my personal blog</h3>
+        <p class="text">In this project I created my personal blog for the first time using Gatsby, Netlify and Github. On this blog I will update my coding journey so far - just for fun and to record my learning experiences. (A big thanks to my mentor Tanay Pratap for teaching me all this)</p>
+        <a class="primary-button" href="https://bloggingdev.netlify.app/">Check Project</a>
+        <a class="secondary-button" href="https://github.com/DebasishSahoo10/personal-blog">View Source</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">connect with me on socials</div>
+        <ul class="footer-list">
+            <li class="nav-list-item"><a class="link" href="https://twitter.com/yoursimagifier">twitter</a></li>
+            <li class="nav-list-item"><a class="link" href="https://www.instagram.com/yoursimagifier/">instagram</a></li>
+            <li class="nav-list-item"><a class="link" href="https://t.me/devkahl">telegram</a></li>
+            <li class="nav-list-item"><a class="link" href="https://www.linkedin.com/in/debasish-sahoo-89ba7a206/">linkedIn</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
